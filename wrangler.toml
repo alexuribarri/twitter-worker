@@ -1,0 +1,11 @@
+name = "my-project"
+node_compat = true
+main = "src/index.js"
+compatibility_date = "2022-12-03"
+account_id = "b3c4f5540dcfffb682c2e5d66d4c94bc"
+[triggers]
+crons = []
+kv_namespaces = [
+    { binding = "TWITTER_WORKER", id = "0ba2915a6a74402d877e9d58fc483ea8", preview_id = "cf502d9747784c3da72b583784e21624" }
+ ]
+[vars]
